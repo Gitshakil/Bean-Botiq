@@ -37,6 +37,9 @@ body{font-family:Arial,Helvetica,sans-serif;line-height:1.5;background:rgb(251,2
 .map iframe{width:100%;height:280px;border:0}
 .checkout,.regform{margin-top:8px;display:flex;flex-direction:column;gap:8px}
 .checkout input,.checkout textarea,.regform input,.regform select{padding:8px;border:1px solid rgb(205,200,195);border-radius:8px}
+.captcha-box{padding:8px;border:1px dashed rgb(205,200,195);border-radius:8px;background:rgb(250,248,245)}
+.plugin-frame{margin-top:6px;border:1px solid rgb(225,220,215);border-radius:8px;overflow:hidden;background:rgb(255,255,255)}
+.plugin-frame iframe{width:100%;height:380px;border:0}
 .search-form{margin-top:8px;display:flex;flex-direction:column;gap:6px}
 .search-box{padding:8px;border:1px solid rgb(205,200,195);border-radius:8px;background:rgb(255,255,255);animation:searchPulse 2.8s ease-in-out infinite}
 .search-box:focus{outline:2px solid rgb(60,40,30);outline-offset:2px}
