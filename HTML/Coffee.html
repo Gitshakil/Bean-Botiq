@@ -14,13 +14,24 @@
 <h1>Bean Boutique</h1>
 </div>
 
-<nav class="nav">
-<a href="index.html">Home</a>
-<a href="Coffee.html">Coffee Selection</a>
-<a href="Equipment.html">Brewing Equipment</a>
-<a href="Events.html">Events & Workshops</a>
-<a href="Cart.html">Shopping Cart</a>
-<a href="Offers.html">Offers & Subscriptions</a>
+<nav class="nav-menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Coffee.html">Coffee Selection</a>
+<ul>
+<li><a href="#light">Light Roast</a></li>
+<li><a href="#medium">Medium Roast</a></li>
+<li><a href="#dark">Dark Roast</a></li>
+</ul>
+</li>
+<li><a href="Equipment.html">Brewing Equipment</a></li>
+<li><a href="Events.html">Events & Workshops</a></li>
+<li><a href="Cart.html">Shopping Cart</a>
+<ul>
+<li><a href="Offers.html">Offers</a></li>
+</ul>
+</li>
+</ul>
 </nav>
 </div>
 
@@ -34,18 +45,15 @@
 <section class="section">
 <h3>Find Coffee</h3>
 <p class="muted">Use the search to quickly find a roast.</p>
-<form class="search-form" action="#" method="get">
-<label for="search">Search by roast or name</label>
-<input id="search" name="search" class="search-box" type="text" placeholder="Example: light, espresso, arabica">
-</form>
-
+<div class="coffee-search">
+<input type="text" name="search" placeholder="Search....">
+<button type="button">Search</button>
+</div>
 </section>
 
 <section class="section" id="dark">
 <h3>Dark roast</h3>
 <p class="muted">Strong taste, deep aroma, best for espresso.</p>
-
-
 
 <div class="coffee-grid">
 
@@ -149,27 +157,26 @@
 </section>
 
 <section class="section">
-<h3>Community Feed</h3>
-<p class="muted">Two plugins: Facebook + Instagram</p>
+<h3>Community Videos and Location</h3>
+<p class="muted">Two plugins: YouTube + Map</p>
 
 <div class="plugin-grid">
 
 <div class="plugin-box">
-<h4>Facebook</h4>
+<h4>YouTube</h4>
 <div class="plugin-frame">
-<iframe title="Facebook page plugin"
-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=380&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false"
-loading="lazy"></iframe>
+<iframe title="Coffee brewing video" src="https://www.youtube.com/embed/OM6Z7N4V9d4" loading="lazy" allowfullscreen></iframe>
 </div>
 </div>
 
 <div class="plugin-box">
-<h4>Instagram</h4>
-<p class="muted">Instagram embed (sample post)</p>
+<h4>Map</h4>
 <div class="plugin-frame">
-<iframe title="Instagram embed"
-src="https://www.instagram.com/p/CvC6mQpO2xS/embed"
-loading="lazy"></iframe>
+<iframe title="Bean Boutique location map"
+src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16770.199992739057!2d90.47741321389877!3d23.65248841886784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1766050173496!5m2!1sen!2sbd"
+loading="lazy"
+referrerpolicy="no-referrer-when-downgrade"
+allowfullscreen></iframe>
 </div>
 </div>
 
