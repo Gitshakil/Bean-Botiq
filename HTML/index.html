@@ -14,27 +14,38 @@
 <h1>Bean Boutique</h1>
 </div>
 
-<nav class="nav">
-<a href="index.html">Home</a>
-<a href="Coffee.html">Coffee Selection</a>
-<a href="Equipment.html">Brewing Equipment</a>
-<a href="Events.html">Events & Workshops</a>
-<a href="Cart.html">Shopping Cart</a>
-<a href="Offers.html">Offers & Subscriptions</a>
+<nav class="nav-menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Coffee.html">Coffee Selection</a>
+<ul>
+<li><a href="Coffee.html#light">Light Roast</a></li>
+<li><a href="Coffee.html#medium">Medium Roast</a></li>
+<li><a href="Coffee.html#dark">Dark Roast</a></li>
+</ul>
+</li>
+<li><a href="Equipment.html">Brewing Equipment</a></li>
+<li><a href="Events.html">Events & Workshops</a></li>
+<li><a href="Cart.html">Shopping Cart</a>
+<ul>
+<li><a href="Offers.html">Offers</a></li>
+</ul>
+</li>
+</ul>
 </nav>
 </div>
 
 <header class="hero">
 <h2>Small-batch coffee with a premium touch.</h2>
 
-<div class="slider">
-<img src="images/slide1.jpg" alt="Cup of hot coffee">
-</div>
-
-<div class="slide-row">
+<div id="slid">
+<figure>
 <img src="images/slide1.jpg" alt="Coffee moment 1">
 <img src="images/slide2.jpg" alt="Coffee moment 2">
 <img src="images/slide3.jpg" alt="Coffee moment 3">
+<img src="images/slide1.jpg" alt="Coffee moment 4">
+<img src="images/slide2.jpg" alt="Coffee moment 5">
+</figure>
 </div>
 
 <p class="hero-text">Curated blends, elegant tools, and calm workshops for everyday brewers.</p>
@@ -78,12 +89,19 @@
 <button type="submit">Sign Up</button>
 </form>
 
-
+<a href="#popup" class="btn">Click Here</a>
 </section>
+
+<div id="popup">
+<a href="#" class="close">&times;</a>
+<h2>NCC Assignment Submission</h2>
+<p>Read Terms &amp; Condition carefully !!!</p>
+</div>
+<div class="bg-popup"></div>
 
 <section class="section">
 <h3>OUR SERVICES</h3>
-<p class="muted">Providing high quality brewing equipments, Beans, & organizing Events & Workshops</p>
+<p class="muted">Providing high quality brewing equipments, Beans, &amp; organizing Events &amp; Workshops</p>
 
 <div class="mini-grid">
 <div class="mini-item">
@@ -100,7 +118,7 @@
 
 <div class="mini-item">
 <img src="images/pick3.jpg" alt="Events & Workshops">
-<h4>Events & Workshops</h4>
+<h4>Events &amp; Workshops</h4>
 <p class="muted">Coffee testing, brewing classes, Roaster events</p>
 </div>
 </div>
@@ -119,15 +137,11 @@
 </section>
 
 <section class="section">
-<h3>Find Us</h3>
-<p class="muted">Our physical store location</p>
+<h3>Security Check</h3>
+<p class="muted">Complete the captcha before sending your message.</p>
 
-<div class="map">
-<iframe title="Bean Boutique location map"
-src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16770.199992739057!2d90.47741321389877!3d23.65248841886784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1766050173496!5m2!1sen!2sbd"
-loading="lazy"
-referrerpolicy="no-referrer-when-downgrade"
-allowfullscreen></iframe>
+<div class="captcha-box">
+<iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api/fallback?k=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" loading="lazy"></iframe>
 </div>
 </section>
 
@@ -137,7 +151,7 @@ allowfullscreen></iframe>
 <div class="footer-box">
 <div class="f-col">
 <h4>Bean Boutique</h4>
-<p class="small">Premium coffee beans, brewing tools & calm workshops.</p>
+<p class="small">Premium coffee beans, brewing tools &amp; calm workshops.</p>
 </div>
 
 <div class="f-col">
@@ -146,9 +160,9 @@ allowfullscreen></iframe>
 <li><a href="index.html">Home</a></li>
 <li><a href="Coffee.html">Coffee Selection</a></li>
 <li><a href="Equipment.html">Brewing Equipment</a></li>
-<li><a href="Events.html">Events & Workshops</a></li>
+<li><a href="Events.html">Events &amp; Workshops</a></li>
 <li><a href="Cart.html">Shopping Cart</a></li>
-<li><a href="Offers.html">Offers & Subscriptions</a></li>
+<li><a href="Offers.html">Offers &amp; Subscriptions</a></li>
 </ul>
 </div>
 
